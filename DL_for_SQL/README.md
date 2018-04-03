@@ -1,9 +1,6 @@
-Detection  XSS  with Deep Learning 
+Detection  SQL Injection  with Deep Learning 
 ====
 
-&emsp;Blog：[http://www.webber.tech/posts/使用深度学习检测XSS/](http://www.webber.tech/posts/使用深度学习检测XSS/)
-
-&emsp;后续：[http://www.webber.tech/posts/使用深度学习检测XSS(续)/](http://www.webber.tech/posts/使用深度学习检测XSS(续)/)
 * 环境
 
 > tensorflow
@@ -12,7 +9,7 @@ Detection  XSS  with Deep Learning
 
 * 说明
 
-> 1. data目录下是使用的数据，包括一个从xssed.com爬取的payload和一个正样本payload。
+> 1. data目录下是使用的数据，包括一个xss样本、sql注入样本和负样本。
 > 2. file目录保存训练好的词向量、预处理的数据、训练好的模型等。
 > 3. log目录保存训练日志，可用tensorborad可视化。
 
